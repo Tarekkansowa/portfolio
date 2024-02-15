@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" 
+    rel="stylesheet"> -->
+    <title>Portfillio</title>
+
+</head>
+
+<body>
+
+    <section>
+        <nav>
+            <div class="row">
+                <a href="#aboutMe"> About Me</a>
+                <a href="#projects"> Projects</a>
+                <a href="#contactMe"> Contac Me</a>
+            </div>
+        </nav>
+
+        <div class="myImage">
+            <img src="./Images/Tarek.bmp">
+        </div>
+    </section>
+    <section>
+        <div id="aboutMe">
+            <h2 class="textHeader"> About Me</h2>
+            <h2>
+                I am a skilled and highly driven computer scientist with a master’s degree in computer science. I am
+                focused on web development, including HTML, CSS, JavaScript, and Bootstrap, this background gives me
+                skills and capabilities to effectively work on projects. I have contributed to design, development, and
+                delivery of a mobile application solution which has given me experience in the field, wanting to expand
+                my knowledge and experience.
+            </h2>
+        </div>
+    </section>
+    <section>
+        <div id="projects">
+            <h2 class="textHeader">Projects</h2>
+            <div class="cards">
+                <div class="projects-row">
+                    <a href="https://tarekkansowa.github.io/project2_ohmyfood/">
+                        <div class="card">
+                            <img src="./images/Desktop_project2_ohmyfood.png" alt="Ohmyfood">
+                            <div class="name">
+                                <h2>Responsive restaurant web page using HTML, CSS and animation </h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://tarekkansowa.github.io/booki/">
+                        <div class="card">
+                            <img src="./images/desktop.png" alt="Ohmyfood">
+                            <div class="name">
+                                <!-- <h2>Responsive tourism web page using HTML, CSS</h2> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-row">
+                    <a href="https://tarekkansowa.github.io/courseBootstrap/">
+                        <div class="card">
+                            <img src="./Images/CouseBootstrap.png" alt="Ohmyfood">
+                            <div class="name">
+                                <h2>Course Responsive web page using HTML, CSS and Bootstrap </h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://tarekkansowa.github.io/Mylibrary/">
+                        <div class="card">
+                            <img src="./Images/Library.png" alt="Library">
+                            <div class="name">
+                                <!-- <h2>  </h2> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="contactMe">
+            <h3 class="head_text">Contact Me</h3>
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="unitedkigdom">United Kigdom</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
